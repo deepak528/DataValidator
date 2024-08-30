@@ -1,0 +1,16 @@
+{
+    "TC1": {
+        "type": "value",
+        "sourceConnection": "myCSVFile1",
+        "sourceSQL": "select count(1) from myTable",
+        "targetConnection": "",
+        "targetSQL": "result > 2000"
+    },
+    "TC2": {
+        "type": "value",
+        "sourceConnection": "myCSVFile1",
+        "sourceSQL": "select Model, count(*) count from myTable Group By Model order by count desc limit 1",
+        "targetConnection": "",
+        "targetSQL": "\"result\" == \"Model X\""
+    }
+}
