@@ -1,0 +1,10 @@
+{
+    "myCSVFile1": {
+        "type": "CSVFile",
+        "path": "data\\Electric_Vehicle_Population_Data.csv"
+    },
+    "myCSVFile2": {
+        "type": "CSVFile",
+        "path": "data\\Electric_Vehicle_Population_Data.csv"
+    }
+}
