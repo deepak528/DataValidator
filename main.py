@@ -1,41 +1,95 @@
-import duckdb
-from src import ValidationEngine
-import pandas as pd
-import pyodbc
-from sqlalchemy.engine import URL
-from sqlalchemy import create_engine
-import sqlalchemy as sa
-    
-# Global Variables
+import ValidationEngine as validator
 
-#connections = {}
-#testCases = {}
+# constants
+csv_file_path = "data\\Electric_Vehicle_Population_Data.csv"
+server = "Deepak-Laptop"
+database = "MemberPortal"
 
-def main():
-    # boot up
-    ValidationEngine.readConnections()
-    ValidationEngine.readTestCases()
-    ValidationEngine.executeTestCases()
-    
-def test():
-    #data = pandas.read_csv("data\\Electric_Vehicle_Population_Data.csv") 
-    cnxn = pyodbc.connect("Driver={SQL Server};"
-                      "Server=Deepak-Laptop;"
-                      "Database=MemberPortal;"
-                      "Trusted_Connection=yes;")
-    
-    connection_string = "DRIVER={SQL Server};SERVER=Deepak-Laptop;DATABASE=MemberPortal;Trusted_Connection=yes"
-    connection_url = URL.create("mssql+pyodbc", query={"odbc_connect": connection_string})
+def tc1():
+    # Test Case 1
+    validator.start_test_case ("TC1")
+    result = validator.validate_csv_record_count(csv_file_path, "> 20000")    
+    validator.end_test_case ("TC1", result, "")
 
-    engine = create_engine(connection_url)
+def tc2():
+    # Test Case 2
+    validator.start_test_case ("TC2")
+    csv_sql = "select Model, count(*) count from myCSVFile Group By Model order by count desc limit 10"
+    database_sql = "select top 10 Model, count(*) count from Electric_Vehicle_Population_Data Group By Model order by count desc"
 
-    with engine.begin() as conn:
-        df = pd.read_sql_query(sa.text("SELECT count(*) FROM dbo.Electric_Vehicle_Population_Data"), conn)
+    csv_df = validator.get_records_csv(csv_file_path, "myCSVFile", csv_sql)
+    sql_df = validator.get_records_sql_server(server, database, database_sql)
 
-    duckdb.sql("CREATE TABLE my_table AS SELECT * FROM df")
+    validator.compare_csv_with_db(csv_df, sql_df, key_columns=['Model'])
 
-    print (df.head(10))
+    #result = True if len(df) == 10 else False
+    validator.end_test_case ("TC2", True, "")
 
-test()
+def tc2():
+    validator.start_test_case ("TC2")
 
-#result = duckdb.sql("CREATE TABLE ontime AS SELECT * FROM 'flights.csv';
+    # sql statements
+    csv_sql = "select Model, count(*) count from myCSVFile Group By Model order by count desc limit 10"
+    database_sql = "select top 10 Model, count(*) count from Electric_Vehicle_Population_Data Group By Model order by count desc"
+
+    # get data
+    csv_df = validator.get_records_csv(csv_file_path, "myCSVFile", csv_sql)
+    sql_df = validator.get_records_sql_server(server, database, database_sql)
+
+    # compare data
+    result = validator.compare_csv_with_db(csv_df, sql_df, key_columns=['Model'])
+
+    validator.end_test_case ("TC2", result, "")
+
+
+def tc2():
+    validator.start_test_case ("TC2")
+
+    # sql statements
+    csv_sql = "select Model, count(*) count from myCSVFile Group By Model order by count desc limit 10"
+    database_sql = "select top 10 Model, count(*) count from Electric_Vehicle_Population_Data Group By Model order by count desc"
+
+    # get data
+    csv_df = validator.get_records_csv(csv_file_path, "myCSVFile", csv_sql)
+    sql_df = validator.get_records_sql_server(server, database, database_sql)
+
+    # compare data
+    result = validator.compare_csv_with_db(csv_df, sql_df, key_columns=['Model'])
+
+    validator.end_test_case ("TC2", result, "")
+
+def tc3():
+    validator.start_test_case ("TC2")
+
+    # sql statements
+    #csv_sql = "select \"VIN (1-10)\" VIN from myCSVFile limit 10"
+    csv_sql = "select \"VIN (1-10)\" VIN ,County,City,State,Postal Code,Model Year,Make,Model from myCSVFile limit 10"
+    database_sql = "select top 10 Model, count(*) count from Electric_Vehicle_Population_Data Group By Model order by count desc"
+
+    # get records
+    csv_df = validator.get_records_csv(csv_file_path, "myCSVFile", csv_sql)
+
+    print (csv_df)
+
+    # get VINs
+    vin_list = validator.convert_df_string (csv_df)
+
+    print(vin_list)
+
+    # get data
+    #csv_df = validator.get_records_csv(csv_file_path, "myCSVFile", csv_sql)
+    #sql_df = validator.get_records_sql_server(server, database, database_sql)
+
+    # compare data
+    #result = validator.compare_csv_with_db(csv_df, sql_df, key_columns=['Model'])
+
+    #validator.end_test_case ("TC2", result, "")
+
+print ("Test Case  | Status | Time Taken | Message")
+print ("------------------------------------------")
+
+#tc1()
+#tc2()
+tc3()
+
+print ("------------------------------------------")

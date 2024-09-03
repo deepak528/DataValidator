@@ -1,0 +1,30 @@
+2024-09-01 20:34:54,323 - ERROR - CSV file not found: data.csv
+2024-09-01 20:35:12,116 - ERROR - Failed to connect to SQL Server: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2024-09-01 20:35:12,116 - ERROR - Database connection failed.
+2024-09-01 20:35:12,126 - ERROR - Failed to execute query: 'NoneType' object has no attribute 'cursor'
+2024-09-01 20:35:12,126 - ERROR - Failed to fetch data from the database.
+2024-09-01 20:36:11,619 - ERROR - CSV file not found: //data/Electric_Vehicle_Population_Data.csv
+2024-09-01 20:36:32,854 - ERROR - CSV file not found: //data/Electric_Vehicle_Population_Data.csv
+2024-09-01 20:37:01,785 - ERROR - CSV file not found: //data/Electric_Vehicle_Population_Data.csv
+2024-09-01 20:37:05,908 - INFO - Successfully connected to SQL Server.
+2024-09-01 20:37:06,353 - ERROR - Failed to execute query: Execution failed on sql 'SELECT * FROM your_table': ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'your_table'. (208) (SQLExecDirectW)")
+2024-09-01 20:37:06,353 - ERROR - Failed to fetch data from the database.
+2024-09-01 20:37:43,241 - INFO - CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 20:37:47,363 - INFO - Successfully connected to SQL Server.
+2024-09-01 20:37:47,718 - ERROR - Failed to execute query: Execution failed on sql 'SELECT * FROM your_table': ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'your_table'. (208) (SQLExecDirectW)")
+2024-09-01 20:37:47,718 - ERROR - Failed to fetch data from the database.
+2024-09-01 20:52:51,801 - INFO - CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 20:55:15,058 - INFO - Test Case 1
+2024-09-01 20:55:15,665 - INFO - CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 20:55:32,403 - INFO - Test Case 1
+2024-09-01 20:55:32,957 - INFO - CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 20:55:32,957 - ERROR - Result: True
+2024-09-01 20:57:56,282 - INFO - Test Case 1
+2024-09-01 20:57:56,860 - INFO - CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 20:57:56,860 - ERROR - Result: True
+2024-09-01 20:58:37,920 - INFO - Test Case 1
+2024-09-01 20:58:38,442 - INFO - CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 20:58:38,442 - ERROR - Result: True
+2024-09-01 21:01:13,187 - INFO - Test Case 1
+2024-09-01 21:01:13,774 - INFO - CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:01:13,774 - ERROR - Result: True

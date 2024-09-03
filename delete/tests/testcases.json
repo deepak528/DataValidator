@@ -1,0 +1,9 @@
+{
+    "TC3": {
+        "type": "compare",
+        "sourceConnection": "myCSVFile1",
+        "sourceSQL": "select Model, count(*) count from mySourceTable Group By Model order by count desc limit 10",
+        "targetConnection": "myDatabase1",
+        "targetSQL": "select top 10 Model, count(*) count from Electric_Vehicle_Population_Data Group By Model order by count desc"
+    }
+}

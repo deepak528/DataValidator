@@ -1,0 +1,407 @@
+2024-09-01 21:03:14,528 [INFO] Test Case 1
+2024-09-01 21:03:15,129 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:03:15,132 [ERROR] Result: True
+2024-09-01 21:05:12,373 [INFO] Test Case 1
+2024-09-01 21:05:12,848 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:05:12,864 [INFO] Result: Pass
+2024-09-01 21:12:15,867 [INFO] Test Case:TC1
+2024-09-01 21:12:16,460 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:12:16,464 [INFO] Result: Pass
+2024-09-01 21:25:39,413 [INFO] Test Case:TC1
+2024-09-01 21:25:39,948 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:25:39,948 [INFO] Result: Pass
+2024-09-01 21:29:12,206 [INFO] Test Case:TC1
+2024-09-01 21:29:12,757 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:29:12,757 [INFO] Result: Pass
+2024-09-01 21:29:12,757 [INFO] Test Case:TC2
+2024-09-01 21:29:17,036 [INFO] Successfully connected to SQL Server.
+2024-09-01 21:29:17,036 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 21:32:04,869 [INFO] Test Case:TC1
+2024-09-01 21:32:05,383 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:32:05,396 [INFO] Result: Pass
+2024-09-01 21:32:05,396 [INFO] Test Case:TC2
+2024-09-01 21:32:09,735 [INFO] Successfully connected to SQL Server.
+2024-09-01 21:32:09,735 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 21:32:09,735 [INFO] Result: Pass
+2024-09-01 21:48:50,582 [INFO] Test Case:TC1
+2024-09-01 21:48:51,262 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:48:51,270 [INFO] Result: Pass
+2024-09-01 21:48:51,270 [INFO] Test Case:TC2
+2024-09-01 21:48:55,572 [INFO] Successfully connected to SQL Server.
+2024-09-01 21:48:55,573 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 21:48:55,573 [INFO] Result: Pass
+2024-09-01 21:48:55,573 [INFO] Test Case:TC3
+2024-09-01 21:48:56,202 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:48:56,404 [INFO] Result: Pass
+2024-09-01 21:52:52,240 [INFO] Test Case:TC1
+2024-09-01 21:52:52,785 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:52:52,795 [INFO] Result: Pass
+2024-09-01 21:52:52,795 [INFO] Test Case:TC2
+2024-09-01 21:52:57,184 [INFO] Successfully connected to SQL Server.
+2024-09-01 21:52:57,184 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 21:52:57,185 [INFO] Result: Pass
+2024-09-01 21:52:57,185 [INFO] Test Case:TC3
+2024-09-01 21:52:57,833 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:52:58,121 [INFO] Result: Pass
+2024-09-01 21:56:17,840 [INFO] Test Case:TC1
+2024-09-01 21:56:18,405 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:56:18,412 [INFO] Result: Pass
+2024-09-01 21:56:18,412 [INFO] Test Case:TC2
+2024-09-01 21:56:22,643 [INFO] Successfully connected to SQL Server.
+2024-09-01 21:56:22,643 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 21:56:22,643 [INFO] Result: Pass
+2024-09-01 21:56:22,643 [INFO] Test Case:TC3
+2024-09-01 21:56:23,286 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:56:23,479 [INFO] SQL Query returned 200048 records.
+2024-09-01 21:56:23,484 [INFO] Result: Pass
+2024-09-01 21:59:37,903 [INFO] Test Case:TC1
+2024-09-01 21:59:38,489 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:59:38,496 [INFO] Result: Pass
+2024-09-01 21:59:38,496 [INFO] Test Case:TC2
+2024-09-01 21:59:42,790 [INFO] Successfully connected to SQL Server.
+2024-09-01 21:59:42,790 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 21:59:42,790 [INFO] Result: Pass
+2024-09-01 21:59:42,790 [INFO] Test Case:TC3
+2024-09-01 21:59:43,410 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 21:59:43,678 [INFO] SQL Query returned 200048 records.
+2024-09-01 21:59:43,687 [INFO] Result: Pass
+2024-09-01 22:02:12,351 [INFO] Test Case:TC1
+2024-09-01 22:02:12,861 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 22:02:12,878 [INFO] Result: Pass
+2024-09-01 22:02:12,878 [INFO] Test Case:TC2
+2024-09-01 22:02:17,241 [INFO] Successfully connected to SQL Server.
+2024-09-01 22:02:17,241 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 22:02:17,241 [INFO] Result: Pass
+2024-09-01 22:02:17,241 [INFO] Test Case:TC3
+2024-09-01 22:02:17,837 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 22:02:17,987 [INFO] SQL Query returned 10 records.
+2024-09-01 22:02:18,003 [INFO] Result: Pass
+2024-09-01 22:08:44,516 [INFO] Test Case:TC1
+2024-09-01 22:08:45,066 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 22:08:45,066 [INFO] Result: Pass
+2024-09-01 22:08:45,066 [INFO] Test Case:TC2
+2024-09-01 22:08:49,317 [INFO] Successfully connected to SQL Server.
+2024-09-01 22:08:49,317 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 22:08:49,317 [INFO] Result: Pass
+2024-09-01 22:08:49,317 [INFO] Test Case:TC3
+2024-09-01 22:08:50,167 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 22:08:50,441 [INFO] CVS SQL Query returned 10 records.
+2024-09-01 22:15:20,076 [INFO] Test Case:TC1
+2024-09-01 22:15:20,651 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 22:15:20,651 [INFO] Result: Pass
+2024-09-01 22:15:20,651 [INFO] Test Case:TC2
+2024-09-01 22:15:24,892 [INFO] Successfully connected to SQL Server.
+2024-09-01 22:15:24,892 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 22:15:24,892 [INFO] Result: Pass
+2024-09-01 22:15:24,892 [INFO] Test Case:TC3
+2024-09-01 22:15:25,556 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 22:15:25,724 [INFO] CVS SQL Query returned 10 records.
+2024-09-01 22:15:25,741 [INFO] Records in CSV match DB
+2024-09-01 22:15:54,786 [INFO] Test Case:TC1
+2024-09-01 22:15:55,313 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 22:15:55,317 [INFO] Result: Pass
+2024-09-01 22:15:55,317 [INFO] Test Case:TC2
+2024-09-01 22:15:59,618 [INFO] Successfully connected to SQL Server.
+2024-09-01 22:15:59,618 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 22:15:59,618 [INFO] Result: Pass
+2024-09-01 22:15:59,618 [INFO] Test Case:TC3
+2024-09-01 22:16:00,254 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 22:16:00,429 [INFO] CVS SQL Query returned 10 records.
+2024-09-01 22:16:00,429 [INFO] Records in CSV match DB
+2024-09-01 22:17:16,567 [INFO] Test Case:TC1
+2024-09-01 22:17:17,097 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 22:17:17,111 [INFO] Result: Pass
+2024-09-01 22:17:17,111 [INFO] Test Case:TC2
+2024-09-01 22:17:21,406 [INFO] Successfully connected to SQL Server.
+2024-09-01 22:17:21,406 [INFO] Fetched 10 records from SQL Server.
+2024-09-01 22:17:21,406 [INFO] Result: Pass
+2024-09-01 22:17:21,406 [INFO] Test Case:TC3
+2024-09-01 22:17:21,997 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-01 22:17:22,171 [INFO] CVS SQL Query returned 10 records.
+2024-09-01 22:17:22,173 [INFO] Records in CSV match DB
+2024-09-02 11:13:26,963 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:13:27,146 [INFO] CVS SQL Query returned 200048 records.
+2024-09-02 11:13:27,151 [INFO] Test Case:TC1
+2024-09-02 11:15:49,711 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:15:49,838 [INFO] CVS SQL Query returned 200048 records.
+2024-09-02 11:15:49,843 [INFO] Test Case:TC1
+2024-09-02 11:15:49,845 [INFO] Result: Pass
+2024-09-02 11:15:49,845 [INFO] Test Case:TC2
+2024-09-02 11:15:49,845 [ERROR] CSV file not found: Deepak-Laptop
+2024-09-02 11:15:54,052 [INFO] Successfully connected to SQL Server.
+2024-09-02 11:15:54,052 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 11:17:16,926 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:17:17,039 [INFO] CVS SQL Query returned 200048 records.
+2024-09-02 11:17:17,051 [INFO] Test Case:TC1
+2024-09-02 11:17:17,051 [INFO] Result: Pass
+2024-09-02 11:17:17,054 [INFO] Test Case:TC2
+2024-09-02 11:17:17,054 [ERROR] CSV file not found: Deepak-Laptop
+2024-09-02 11:17:21,158 [INFO] Successfully connected to SQL Server.
+2024-09-02 11:17:21,158 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 11:47:09,764 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:47:09,879 [INFO] CVS SQL Query returned 200048 records.
+2024-09-02 11:47:09,879 [INFO] Test Case:TC1
+2024-09-02 11:47:09,879 [INFO] Result: Pass
+2024-09-02 11:47:09,879 [INFO] Test Case:TC2
+2024-09-02 11:48:43,810 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:48:43,930 [INFO] CVS SQL Query returned 200048 records.
+2024-09-02 11:48:43,934 [INFO] Test Case:TC1
+2024-09-02 11:48:43,935 [INFO] Result: Pass
+2024-09-02 11:48:43,935 [INFO] Test Case:TC2
+2024-09-02 11:48:44,295 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:48:44,317 [ERROR] Error reading CSV file: Catalog Error: Table with name "myCSVFile" already exists!
+2024-09-02 11:48:48,415 [INFO] Successfully connected to SQL Server.
+2024-09-02 11:48:48,415 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 11:49:47,977 [INFO] Test Case:TC1
+2024-09-02 11:49:48,323 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:49:48,333 [INFO] Result: Pass
+2024-09-02 11:49:48,333 [INFO] Test Case:TC2
+2024-09-02 11:49:48,687 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:49:48,871 [ERROR] Error reading CSV file: Catalog Error: Table with name mySourceTable does not exist!
+Did you mean "information_schema.tables"?
+2024-09-02 11:49:52,996 [INFO] Successfully connected to SQL Server.
+2024-09-02 11:49:52,996 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 11:50:35,770 [INFO] Test Case:TC1
+2024-09-02 11:50:36,119 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:50:36,133 [INFO] Result: Pass
+2024-09-02 11:50:36,133 [INFO] Test Case:TC2
+2024-09-02 11:50:36,479 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:50:36,626 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 11:50:40,779 [INFO] Successfully connected to SQL Server.
+2024-09-02 11:50:40,780 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 11:50:40,787 [INFO] Records in CSV match DB
+2024-09-02 11:50:40,787 [INFO] Result: Pass
+2024-09-02 11:51:31,460 [INFO] Test Case:TC1
+2024-09-02 11:51:31,867 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:51:31,867 [INFO] Result: Pass
+2024-09-02 11:51:31,867 [INFO] Test Case:TC2
+2024-09-02 11:51:32,248 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:51:32,374 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 11:51:36,521 [INFO] Successfully connected to SQL Server.
+2024-09-02 11:51:36,521 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 11:51:36,531 [INFO] Records in CSV match DB
+2024-09-02 11:51:36,544 [INFO] Records in CSV but not in DB: Empty DataFrame
+Columns: [Model, count_x, count_y, _merge]
+Index: []
+2024-09-02 11:51:36,544 [INFO] Records in DB but not in CSV: Empty DataFrame
+Columns: [Model, count_x, count_y, _merge]
+Index: []
+2024-09-02 11:51:36,549 [INFO] Result: Pass
+2024-09-02 11:52:18,607 [INFO] Test Case:TC1
+2024-09-02 11:52:18,962 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:52:18,966 [INFO] Result: Pass
+2024-09-02 11:52:18,967 [INFO] Test Case:TC2
+2024-09-02 11:52:19,340 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:52:19,466 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 11:52:23,581 [INFO] Successfully connected to SQL Server.
+2024-09-02 11:52:23,581 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 11:52:23,581 [INFO] Records in CSV match DB
+2024-09-02 11:52:23,581 [INFO] Records in CSV but not in DB: 0
+2024-09-02 11:52:23,581 [INFO] Records in DB but not in CSV: 0
+2024-09-02 11:52:23,581 [INFO] Result: Pass
+2024-09-02 11:53:49,804 [INFO] Test Case:TC1
+2024-09-02 11:53:50,157 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:53:50,157 [INFO] Result: Pass
+2024-09-02 11:53:50,157 [INFO] Test Case:TC2
+2024-09-02 11:53:50,524 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:53:50,668 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 11:53:54,764 [INFO] Successfully connected to SQL Server.
+2024-09-02 11:53:54,764 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 11:53:54,769 [INFO] Records in CSV match DB
+2024-09-02 11:53:54,769 [INFO] Records in CSV but not in DB: 0
+2024-09-02 11:53:54,769 [INFO] Records in DB but not in CSV: 0
+2024-09-02 11:53:54,769 [INFO] Result: Pass
+2024-09-02 11:57:39,851 [INFO] Test Case:TC1
+2024-09-02 11:57:40,208 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:57:40,208 [INFO] Result: Pass
+2024-09-02 11:57:40,208 [INFO] Test Case:TC2
+2024-09-02 11:57:40,558 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:57:40,691 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 11:57:44,789 [INFO] Successfully connected to SQL Server.
+2024-09-02 11:57:44,789 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 11:57:44,797 [INFO] Records in CSV match DB
+2024-09-02 11:57:44,797 [INFO] Records in CSV but not in DB: 0
+2024-09-02 11:57:44,797 [INFO] Records in DB but not in CSV: 0
+2024-09-02 11:57:44,797 [INFO] Result: Pass
+2024-09-02 11:57:44,797 [INFO] Test Case:TC1
+2024-09-02 11:57:45,185 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:57:45,201 [INFO] Result: Pass
+2024-09-02 11:57:45,201 [INFO] Test Case:TC2
+2024-09-02 11:57:45,555 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:57:45,684 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 11:57:49,765 [ERROR] Failed to connect to SQL Server: Catalog Error: Table with name "mySQLTable" already exists!
+2024-09-02 11:58:13,703 [INFO] Test Case:TC1
+2024-09-02 11:58:14,057 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:58:14,057 [INFO] Result: Pass
+2024-09-02 11:58:14,057 [INFO] Test Case:TC2
+2024-09-02 11:58:14,437 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:58:14,565 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 11:58:18,706 [INFO] Successfully connected to SQL Server.
+2024-09-02 11:58:18,706 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 11:58:18,706 [INFO] Records in CSV match DB
+2024-09-02 11:58:18,706 [INFO] Records in CSV but not in DB: 0
+2024-09-02 11:58:18,706 [INFO] Records in DB but not in CSV: 0
+2024-09-02 11:58:18,706 [INFO] Result: Pass
+2024-09-02 11:58:18,706 [INFO] Test Case:TC1
+2024-09-02 11:58:19,092 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:58:19,101 [INFO] Result: Pass
+2024-09-02 11:58:19,102 [INFO] Test Case:TC2
+2024-09-02 11:58:19,469 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 11:58:19,597 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 11:58:23,691 [ERROR] Failed to connect to SQL Server: Catalog Error: Table with name "mySQLTable" already exists!
+2024-09-02 14:54:22,980 [INFO] Test Case:TC1
+2024-09-02 14:54:23,325 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 14:54:23,325 [INFO] Result: Pass
+2024-09-02 14:54:23,325 [INFO] Test Case:TC2
+2024-09-02 14:54:23,693 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 14:54:23,822 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 14:54:27,990 [INFO] Successfully connected to SQL Server.
+2024-09-02 14:54:27,990 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 14:54:28,005 [INFO] Records in CSV match DB
+2024-09-02 14:54:28,005 [INFO] Records in CSV but not in DB: 0
+2024-09-02 14:54:28,005 [INFO] Records in DB but not in CSV: 0
+2024-09-02 14:54:28,005 [INFO] Result: Pass
+2024-09-02 15:19:48,228 [INFO] Test Case:TC1
+2024-09-02 15:19:48,578 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:19:48,590 [INFO] Result: Pass
+2024-09-02 15:20:28,007 [INFO] Test Case:TC1
+2024-09-02 15:20:28,352 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:20:28,368 [INFO] Result: Pass
+2024-09-02 15:20:28,368 [INFO] Test Case:TC2
+2024-09-02 15:20:28,714 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:20:28,845 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 15:20:32,971 [INFO] Successfully connected to SQL Server.
+2024-09-02 15:20:32,971 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 15:20:32,973 [INFO] Records in CSV match DB
+2024-09-02 15:20:32,973 [INFO] Records in CSV but not in DB: 0
+2024-09-02 15:20:32,977 [INFO] Records in DB but not in CSV: 0
+2024-09-02 15:20:32,977 [INFO] Result: Pass
+2024-09-02 15:23:44,519 [INFO] Test Case:TC1
+2024-09-02 15:23:44,881 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:23:44,888 [INFO] Result: Pass
+2024-09-02 15:23:44,888 [INFO] Test Case:TC2
+2024-09-02 15:23:45,229 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:23:45,367 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 15:23:49,460 [INFO] Successfully connected to SQL Server.
+2024-09-02 15:23:49,460 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 15:23:49,468 [INFO] Records in CSV match DB
+2024-09-02 15:23:49,468 [INFO] Records in CSV but not in DB: 0
+2024-09-02 15:23:49,468 [INFO] Records in DB but not in CSV: 0
+2024-09-02 15:23:49,468 [INFO] Result: Pass
+2024-09-02 15:25:12,326 [INFO] Test Case:TC1
+2024-09-02 15:25:12,712 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:25:12,714 [INFO] Result: Pass
+2024-09-02 15:25:12,714 [INFO] Test Case:TC2
+2024-09-02 15:25:13,047 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:25:13,182 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 15:25:17,283 [INFO] Successfully connected to SQL Server.
+2024-09-02 15:25:17,283 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 15:25:17,283 [INFO] Records in CSV match DB
+2024-09-02 15:25:17,283 [INFO] Records in CSV but not in DB: 0
+2024-09-02 15:25:17,283 [INFO] Records in DB but not in CSV: 0
+2024-09-02 15:25:17,283 [INFO] Result: Pass
+2024-09-02 15:34:32,076 [INFO] Test Case:TC1
+2024-09-02 15:34:32,448 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:34:48,786 [INFO] Test Case:TC1
+2024-09-02 15:34:49,109 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:34:49,125 [INFO] Result: Pass
+2024-09-02 15:34:49,125 [INFO] Test Case:TC2
+2024-09-02 15:34:49,462 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:34:49,587 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 15:34:53,711 [INFO] Successfully connected to SQL Server.
+2024-09-02 15:34:53,711 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 15:34:53,729 [INFO] Records in CSV match DB
+2024-09-02 15:34:53,729 [INFO] Records in CSV but not in DB: 0
+2024-09-02 15:34:53,729 [INFO] Records in DB but not in CSV: 0
+2024-09-02 15:34:53,729 [INFO] Result: Pass
+2024-09-02 15:35:59,919 [INFO] Test Case:TC1
+2024-09-02 15:36:00,276 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:36:00,276 [INFO] Result: Pass
+2024-09-02 15:36:00,276 [INFO] Test Case:TC2
+2024-09-02 15:36:00,664 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:36:00,797 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 15:36:04,930 [INFO] Successfully connected to SQL Server.
+2024-09-02 15:36:04,930 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 15:36:04,935 [INFO] Records in CSV match DB
+2024-09-02 15:36:04,935 [INFO] Records in CSV but not in DB: 0
+2024-09-02 15:36:04,935 [INFO] Records in DB but not in CSV: 0
+2024-09-02 15:36:04,935 [INFO] Result: Pass
+2024-09-02 15:36:09,707 [INFO] Test Case:TC1
+2024-09-02 15:36:10,050 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:36:10,054 [INFO] Result: Pass
+2024-09-02 15:36:10,054 [INFO] Test Case:TC2
+2024-09-02 15:36:10,399 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:36:10,524 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 15:36:14,617 [INFO] Successfully connected to SQL Server.
+2024-09-02 15:36:14,617 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 15:36:14,622 [INFO] Records in CSV match DB
+2024-09-02 15:36:14,622 [INFO] Records in CSV but not in DB: 0
+2024-09-02 15:36:14,622 [INFO] Records in DB but not in CSV: 0
+2024-09-02 15:36:14,622 [INFO] Result: Pass
+2024-09-02 15:38:40,469 [INFO] Test Case:TC1
+2024-09-02 15:38:40,818 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:38:40,832 [INFO] Result: Pass
+2024-09-02 15:38:40,832 [INFO] Test Case:TC2
+2024-09-02 15:38:41,173 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:38:41,314 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 15:38:45,410 [INFO] Successfully connected to SQL Server.
+2024-09-02 15:38:45,410 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 15:38:45,416 [INFO] Records in CSV match DB
+2024-09-02 15:38:45,416 [INFO] Records in CSV but not in DB: 0
+2024-09-02 15:38:45,416 [INFO] Records in DB but not in CSV: 0
+2024-09-02 15:38:45,416 [INFO] Result: Pass
+2024-09-02 15:39:14,354 [INFO] Test Case:TC1
+2024-09-02 15:39:14,697 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:39:14,697 [INFO] Result: Pass
+2024-09-02 15:39:14,697 [INFO] Test Case:TC2
+2024-09-02 15:39:15,054 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:39:15,183 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 15:39:19,276 [INFO] Successfully connected to SQL Server.
+2024-09-02 15:39:19,276 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 15:39:19,276 [INFO] Records in CSV match DB
+2024-09-02 15:39:19,276 [INFO] Records in CSV but not in DB: 0
+2024-09-02 15:39:19,276 [INFO] Records in DB but not in CSV: 0
+2024-09-02 15:39:19,276 [INFO] Result: Pass
+2024-09-02 15:52:07,296 [INFO] Test Case:TC1
+2024-09-02 15:52:07,646 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:52:07,650 [INFO] Result: Pass
+2024-09-02 15:52:07,650 [INFO] Test Case:TC2
+2024-09-02 15:52:07,980 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:52:08,102 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 15:52:12,199 [INFO] Successfully connected to SQL Server.
+2024-09-02 15:52:12,199 [INFO] Fetched 10 records from SQL Server.
+2024-09-02 15:52:12,205 [INFO] Records in CSV match DB
+2024-09-02 15:52:12,205 [INFO] Records in CSV but not in DB: 0
+2024-09-02 15:52:12,205 [INFO] Records in DB but not in CSV: 0
+2024-09-02 15:52:12,205 [INFO] Result: Pass
+2024-09-02 15:55:42,709 [INFO] Test Case:TC2
+2024-09-02 15:55:43,034 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:55:43,161 [ERROR] Error reading CSV file: Catalog Error: Scalar Function with name vin does not exist!
+Did you mean "bin"?
+2024-09-02 15:57:24,943 [INFO] Test Case:TC2
+2024-09-02 15:57:25,298 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 15:57:25,417 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 16:02:48,250 [INFO] Test Case:TC2
+2024-09-02 16:02:48,601 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 16:02:48,730 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 16:06:05,893 [INFO] Test Case:TC2
+2024-09-02 16:06:06,276 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 16:06:06,390 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 16:12:25,436 [INFO] Test Case:TC2
+2024-09-02 16:12:56,662 [INFO] Test Case:TC2
+2024-09-02 16:12:57,124 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 16:12:57,269 [INFO] CVS SQL Query returned 10 records.
+2024-09-02 16:16:07,782 [INFO] Test Case:TC2
+2024-09-02 16:16:08,138 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 16:16:08,275 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"
+2024-09-02 16:16:08,621 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 16:16:08,621 [ERROR] Error reading CSV file: Catalog Error: Table with name "myCSVFile" already exists!
+2024-09-02 16:17:55,067 [INFO] Test Case:TC2
+2024-09-02 16:17:55,712 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 16:17:55,895 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"
+2024-09-02 16:18:27,893 [INFO] Test Case:TC2
+2024-09-02 16:18:28,231 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-02 16:18:28,357 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"
+2024-09-03 08:41:50,037 [INFO] Test Case:TC2
+2024-09-03 08:41:50,683 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 08:41:50,921 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"

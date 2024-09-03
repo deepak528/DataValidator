@@ -12,5 +12,12 @@
         "sourceSQL": "select Model, count(*) count from myTable Group By Model order by count desc limit 1",
         "targetConnection": "",
         "targetSQL": "\"result\" == \"Model X\""
+    },
+    "TC3": {
+        "type": "Reconcillation",
+        "sourceConnection": "myCSVFile1",
+        "sourceSQL": "select Model, count(*) count from myTable Group By Model order by count desc limit 10",
+        "targetConnection": "myDatabase1",
+        "targetSQL": "select Model, count(*) count from myTable Group By Model order by count desc limit 10"
     }
 }
