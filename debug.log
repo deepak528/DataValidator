@@ -405,3 +405,110 @@ Did you mean "bin"?
 2024-09-03 08:41:50,037 [INFO] Test Case:TC2
 2024-09-03 08:41:50,683 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
 2024-09-03 08:41:50,921 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"
+2024-09-03 20:33:59,904 [INFO] Test Case:TC2
+2024-09-03 20:34:00,360 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:34:00,518 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"
+2024-09-03 20:35:06,518 [INFO] Test Case:TC2
+2024-09-03 20:35:07,115 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:35:07,269 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"
+2024-09-03 20:36:17,587 [INFO] Test Case:TC2
+2024-09-03 20:36:18,265 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:36:18,457 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:41:36,014 [INFO] Test Case:TC2
+2024-09-03 20:41:36,462 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:41:36,610 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:44:21,022 [INFO] Test Case:TC2
+2024-09-03 20:44:21,688 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:44:21,862 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"
+2024-09-03 20:44:47,581 [INFO] Test Case:TC2
+2024-09-03 20:44:48,084 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:44:48,243 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"
+2024-09-03 20:46:25,117 [INFO] Test Case:TC2
+2024-09-03 20:46:25,608 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:46:25,796 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"
+2024-09-03 20:46:56,940 [INFO] Test Case:TC2
+2024-09-03 20:46:57,432 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:46:57,567 [ERROR] Error reading CSV file: Parser Error: syntax error at or near "Year"
+2024-09-03 20:47:54,175 [INFO] Test Case:TC2
+2024-09-03 20:47:54,735 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:47:54,898 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:49:10,978 [INFO] Test Case:TC2
+2024-09-03 20:49:11,482 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:49:11,700 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:49:27,733 [INFO] Test Case:TC2
+2024-09-03 20:49:28,234 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:49:28,401 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:50:05,280 [INFO] Test Case:TC2
+2024-09-03 20:50:05,960 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:50:06,146 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:50:38,551 [INFO] Test Case:TC2
+2024-09-03 20:50:39,044 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:50:39,214 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:51:40,936 [INFO] Test Case:TC2
+2024-09-03 20:51:41,435 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:51:41,604 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:55:46,158 [INFO] Test Case:TC2
+2024-09-03 20:55:46,758 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:55:46,925 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:55:51,280 [ERROR] Failed to connect to SQL Server: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '5YJSA1E28K'. (102) (SQLExecDirectW)")
+[SQL: select "VIN (1-10)" VIN,"Model Year",Make,Model from Electric_Vehicle_Population_Data where "VIN (1-10)" in "5YJSA1E28K", "1C4JJXP68P", "WBY8P6C05L", "JTDKARFP1J", "5UXTA6C09N", "5YJYGDEF8L", "JTMAB3FV7P", "JN1AZ0CPXC", "JN1AZ0CP7B", "1N4AZ0CP0F"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-09-03 20:56:29,824 [INFO] Test Case:TC2
+2024-09-03 20:56:30,274 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:56:30,432 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:56:34,522 [ERROR] Failed to connect to SQL Server: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '5YJSA1E28K'. (102) (SQLExecDirectW)")
+[SQL: select "VIN (1-10)" VIN,"Model Year",Make,Model from Electric_Vehicle_Population_Data where "VIN (1-10)" in "5YJSA1E28K", "1C4JJXP68P", "WBY8P6C05L", "JTDKARFP1J", "5UXTA6C09N", "5YJYGDEF8L", "JTMAB3FV7P", "JN1AZ0CPXC", "JN1AZ0CP7B", "1N4AZ0CP0F"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-09-03 20:57:02,895 [INFO] Test Case:TC2
+2024-09-03 20:57:03,420 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 20:57:03,622 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 20:57:07,740 [ERROR] Failed to connect to SQL Server: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '5YJSA1E28K'. (102) (SQLExecDirectW)")
+[SQL: select "VIN (1-10)" VIN,"Model Year",Make,Model from Electric_Vehicle_Population_Data where "VIN (1-10)" in "5YJSA1E28K", "1C4JJXP68P", "WBY8P6C05L", "JTDKARFP1J", "5UXTA6C09N", "5YJYGDEF8L", "JTMAB3FV7P", "JN1AZ0CPXC", "JN1AZ0CP7B", "1N4AZ0CP0F"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-09-03 21:01:48,086 [INFO] Test Case:TC2
+2024-09-03 21:01:48,571 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 21:01:48,718 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 21:01:52,809 [ERROR] Failed to connect to SQL Server: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '5YJSA1E28K'. (102) (SQLExecDirectW)")
+[SQL: select "VIN (1-10)" VIN,Make,Model from Electric_Vehicle_Population_Data where "VIN (1-10)" in "5YJSA1E28K", "1C4JJXP68P", "WBY8P6C05L", "JTDKARFP1J", "5UXTA6C09N", "5YJYGDEF8L", "JTMAB3FV7P", "JN1AZ0CPXC", "JN1AZ0CP7B", "1N4AZ0CP0F"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-09-03 21:04:53,666 [INFO] Test Case:TC2
+2024-09-03 21:04:54,335 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 21:04:54,619 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 21:04:58,798 [ERROR] Failed to run  SQL Query: (pyodbc.ProgrammingError) ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name '1N4AZ0CP0F'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'JN1AZ0CP7B'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'JN1AZ0CPXC'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'JTMAB3FV7P'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name '5YJYGDEF8L'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name '5UXTA6C09N'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'JTDKARFP1J'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'WBY8P6C05L'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name '1C4JJXP68P'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name '5YJSA1E28K'. (207)")
+[SQL: select "VIN (1-10)" VIN,Make,Model from Electric_Vehicle_Population_Data where "VIN (1-10)" in ("5YJSA1E28K", "1C4JJXP68P", "WBY8P6C05L", "JTDKARFP1J", "5UXTA6C09N", "5YJYGDEF8L", "JTMAB3FV7P", "JN1AZ0CPXC", "JN1AZ0CP7B", "1N4AZ0CP0F")]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-09-03 21:07:44,816 [INFO] Test Case:TC2
+2024-09-03 21:07:45,528 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 21:07:45,753 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 21:07:50,060 [INFO] Successfully connected to SQL Server.
+2024-09-03 21:07:50,060 [INFO] Fetched 553 records from SQL Server.
+2024-09-03 21:08:25,038 [INFO] Test Case:TC2
+2024-09-03 21:08:25,557 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 21:08:25,778 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 21:08:29,957 [INFO] Successfully connected to SQL Server.
+2024-09-03 21:08:29,957 [INFO] Fetched 553 records from SQL Server.
+2024-09-03 21:08:30,001 [INFO] Records in CSV match DB
+2024-09-03 21:08:30,001 [INFO] Records in CSV but not in DB: 0
+2024-09-03 21:08:30,001 [INFO] Records in DB but not in CSV: 0
+2024-09-03 21:08:30,001 [INFO] Result: Pass
+2024-09-03 21:10:02,972 [INFO] Test Case:TC1
+2024-09-03 21:10:03,637 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 21:10:03,641 [INFO] Result: Pass
+2024-09-03 21:10:03,641 [INFO] Test Case:TC2
+2024-09-03 21:10:04,164 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 21:10:04,348 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 21:10:08,699 [INFO] Successfully connected to SQL Server.
+2024-09-03 21:10:08,699 [INFO] Fetched 10 records from SQL Server.
+2024-09-03 21:10:08,699 [INFO] Records in CSV match DB
+2024-09-03 21:10:08,699 [INFO] Records in CSV but not in DB: 0
+2024-09-03 21:10:08,699 [INFO] Records in DB but not in CSV: 0
+2024-09-03 21:10:08,699 [INFO] Result: Pass
+2024-09-03 21:10:08,699 [INFO] Test Case:TC2
+2024-09-03 21:10:09,278 [INFO] CSV file data\Electric_Vehicle_Population_Data.csv has 200048 records.
+2024-09-03 21:10:09,482 [INFO] CVS SQL Query returned 10 records.
+2024-09-03 21:10:13,586 [INFO] Successfully connected to SQL Server.
+2024-09-03 21:10:13,586 [INFO] Fetched 553 records from SQL Server.
+2024-09-03 21:10:13,586 [INFO] Records in CSV match DB
+2024-09-03 21:10:13,586 [INFO] Records in CSV but not in DB: 0
+2024-09-03 21:10:13,586 [INFO] Records in DB but not in CSV: 0
+2024-09-03 21:10:13,586 [INFO] Result: Pass

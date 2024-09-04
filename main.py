@@ -63,33 +63,37 @@ def tc3():
 
     # sql statements
     #csv_sql = "select \"VIN (1-10)\" VIN from myCSVFile limit 10"
-    csv_sql = "select \"VIN (1-10)\" VIN ,County,City,State,Postal Code,Model Year,Make,Model from myCSVFile limit 10"
-    database_sql = "select top 10 Model, count(*) count from Electric_Vehicle_Population_Data Group By Model order by count desc"
+    csv_sql = "select \"VIN (1-10)\" VIN,Make,Model from myCSVFile limit 10"
+    database_sql = "select \"VIN (1-10)\" VIN,Make,Model from Electric_Vehicle_Population_Data where \"VIN (1-10)\" in "
 
     # get records
     csv_df = validator.get_records_csv(csv_file_path, "myCSVFile", csv_sql)
 
-    print (csv_df)
-
     # get VINs
-    vin_list = validator.convert_df_string (csv_df)
+    vin_list = csv_df["VIN"].head(10)
+    vin_list = validator.convert_df_string (vin_list)
 
-    print(vin_list)
+    database_sql = database_sql + "(" + vin_list + ")"
 
     # get data
     #csv_df = validator.get_records_csv(csv_file_path, "myCSVFile", csv_sql)
-    #sql_df = validator.get_records_sql_server(server, database, database_sql)
+    sql_df = validator.get_records_sql_server(server, database, database_sql)
+
+    #print (sql_df)
 
     # compare data
-    #result = validator.compare_csv_with_db(csv_df, sql_df, key_columns=['Model'])
+    result = validator.compare_csv_with_db(csv_df, sql_df, key_columns=['Model'])
 
-    #validator.end_test_case ("TC2", result, "")
+    validator.end_test_case ("TC3", result, "")
+
+print ("Writing log to: debug.log")
+print ("")
 
 print ("Test Case  | Status | Time Taken | Message")
 print ("------------------------------------------")
 
-#tc1()
-#tc2()
+tc1()
+tc2()
 tc3()
 
 print ("------------------------------------------")

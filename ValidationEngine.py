@@ -81,7 +81,11 @@ def get_records_sql_server(server, database, strSQL):
         # create connection
         connection_url = URL.create("mssql+pyodbc", query={"odbc_connect": conn_str})
         engine = create_engine(connection_url)
+    except Exception as e:
+        logging.error(f"Failed to connect to SQL Server: {e}")
+        return None
 
+    try:
         with engine.begin() as conn:
             df = pd.read_sql_query(sa.text(strSQL), conn)
             #duckdb.sql("CREATE TABLE mySQLTable AS SELECT * FROM df")
@@ -91,7 +95,7 @@ def get_records_sql_server(server, database, strSQL):
         logging.info(f"Fetched {len(df)} records from SQL Server.")
 
     except Exception as e:
-        logging.error(f"Failed to connect to SQL Server: {e}")
+        logging.error(f"Failed to run  SQL Query: {e}")
         return None
 
     return df
@@ -148,8 +152,8 @@ def convert_df_string(df):
     # join array value to a string
     for value in myArray:
         if len(return_value) == 0:
-            return_value = value
+            return_value = "'" + str(value) + "'"
         else:
-            return_value = return_value + ", " + value
+            return_value = return_value + ", '" + str(value) + "'"
 
     return return_value
